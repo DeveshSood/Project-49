@@ -1,0 +1,48 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(74, 124, 83);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #000000;
+    border: 6px solid rgb(7, 55, 189);
+    color: rgb(255, 255, 255)
+}
+
+img {
+        border-style: groove;
+        border: 6px solid rgb(78, 28, 28);
+        border-radius: 10px;
+        max-width:100%;
+        height:auto;
+}
